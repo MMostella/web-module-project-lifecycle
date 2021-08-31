@@ -5,8 +5,8 @@ import GithubUser from './GithubUser';
 import styled from 'styled-components';
 
 const StyledCard = styled.div `
-    /* border: 1px solid yellow;
-    margin: 0 2%; */
+    display: flex;
+    flex-direction: column;
 `
 
 class GithubCard extends React.Component {
@@ -29,7 +29,7 @@ class GithubCard extends React.Component {
     render() {
         return (
             <StyledCard>
-                < GithubUser user={this.state.user}/>
+                <GithubUser user={this.state.user}/>
             </StyledCard>
         )
     }
