@@ -5,6 +5,8 @@ import GithubUser from './GithubUser';
 import styled from 'styled-components';
 
 const StyledCard = styled.div `
+    /* border: 1px solid yellow;
+    margin: 0 2%; */
 `
 
 class GithubCard extends React.Component {
@@ -15,7 +17,6 @@ class GithubCard extends React.Component {
     componentDidMount() {
         axios.get('https://api.github.com/users/MMostella')
             .then(res => {
-                console.log(res)
                 this.setState({
                     user: res.data
                 })
