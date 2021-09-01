@@ -35,9 +35,9 @@ class FollowersList extends React.Component {
     render() {
         return (
             <StyledFollowers>
-                {this.state.followers.map(user => {
+                {this.state.followers.map(user => (
                     <Followers followers={user}/>
-                })}
+                ))}
             </StyledFollowers>
         )
     }

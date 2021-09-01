@@ -62,7 +62,7 @@ class GithubUser extends React.Component {
                         </div>
                     </div>
                 </StyledUser>
-                <FollowersList />
+                {/* <FollowersList /> */}
             </>
         )
     }
