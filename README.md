@@ -14,12 +14,12 @@ Commit your code regularly and meaningfully. This helps you and any collaborator
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Use CRA to create a new React app in this repository
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [1] Create a forked copy of this project.
+- [1] Clone your OWN version of the repository in your terminal
+- [1] Use CRA to create a new React app in this repository
+- [1] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [1] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [1] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
